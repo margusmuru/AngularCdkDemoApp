@@ -1,1 +1,45 @@
-/* You can add global styles to this file, and also import other style files */
+.list {
+   padding: 5px;
+   max-width: 50%;
+   border: solid black 1px;
+ }
+
+.boundary-list {
+  padding: 5px;
+  border: solid black 1px;
+}
+
+.item {
+  padding: 5px;
+  margin: 5px;
+  border: solid deepskyblue 1px;
+  font-size: 25px;
+  background: lightblue;
+}
+
+.small-item {
+  padding: 5px;
+  margin: 5px;
+  max-width: 50%;
+  border: solid deepskyblue 1px;
+  font-size: 25px;
+  background: lightblue;
+}
+
+.two-lists {
+  display: flex;
+}
+
+.handle {
+  background: crimson;
+  color: crimson;
+  width: 30px;
+  float: right;
+}
+
+.example-box {
+  background: lightblue;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+}

@@ -1,0 +1,13 @@
+<h1>free-drag demo</h1>
+
+<p>
+  <button (click)="changePosition()">Change element position</button>
+</p>
+
+<div class="example-box" cdkDrag [cdkDragFreeDragPosition]="dragPosition1">
+  Drag me around
+</div>
+
+<div class="example-box" cdkDrag [cdkDragFreeDragPosition]="dragPosition2">
+  Drag me around
+</div>

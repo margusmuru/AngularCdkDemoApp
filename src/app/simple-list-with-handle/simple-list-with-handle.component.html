@@ -1,0 +1,34 @@
+<h1>simple-list with handle and restrictions demo</h1>
+
+
+<div style="max-width: 50%">
+  <div cdkDropList (cdkDropListDropped)="drop($event)" class="boundary-list">
+    <div cdkDrag
+         class="small-item"
+         *ngFor="let element of items">
+      {{element}}<span cdkDragHandle class="handle">_</span>
+    </div>
+  </div>
+</div>
+
+<div class="boundary" style="max-width: 50%">
+  <div cdkDropList (cdkDropListDropped)="drop($event)" class="boundary-list">
+    <div cdkDrag
+         cdkDragBoundary=".boundary"
+         class="small-item"
+         *ngFor="let element of items">
+      {{element}}<span cdkDragHandle class="handle">_</span>
+    </div>
+  </div>
+</div>
+
+<div class="boundary" style="max-width: 50%">
+  <div cdkDropList (cdkDropListDropped)="drop($event)" class="boundary-list">
+    <div cdkDrag
+         cdkDragLockAxis="y"
+         class="small-item"
+         *ngFor="let element of items">
+      {{element}}<span cdkDragHandle class="handle">_</span>
+    </div>
+  </div>
+</div>

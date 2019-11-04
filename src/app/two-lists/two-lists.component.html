@@ -1,0 +1,28 @@
+<h1>two-lists demo</h1>
+
+
+<div cdkDropListGroup class="two-lists">
+
+  <div cdkDropList
+       [cdkDropListData]="items"
+       (cdkDropListDropped)="drop($event)"
+       class="list">
+    <div cdkDrag
+         class="item"
+         *ngFor="let element of items">
+      {{element}}
+    </div>
+  </div>
+
+  <div cdkDropList
+       [cdkDropListData]="emptyList"
+       (cdkDropListDropped)="drop($event)"
+       class="list">
+    <div cdkDrag
+         class="item"
+         *ngFor="let element of emptyList">
+      {{element}}
+    </div>
+  </div>
+
+</div>

@@ -1,1 +1,14 @@
-<p>simple-list works!</p>
+<h1>simple-list demo</h1>
+
+
+<div cdkDropList
+     (cdkDropListDropped)="drop($event)"
+     class="list">
+
+  <div cdkDrag
+       class="item"
+       *ngFor="let element of items">
+    {{element}}
+  </div>
+
+</div>
