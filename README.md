@@ -1,6 +1,22 @@
 # AngularCdkDemoApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.4.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.4 to demo some CDK drag&drop features.
+
+# Features
+* Simple CDK drag&drop list
+* CDK drag&drop list with handle and drag restrictions
+* CDK drag&drop between two lists
+* CDK free drag on entire page
+* CDK drag from one window to another using CDK portals
+
+# Credits
+* [Siim Veskilt](https://github.com/siimveskilt) helped with portals demo.
+
+<br>
+<br>
+<br>
+<br>
+<br>
 
 ## Development server
 
