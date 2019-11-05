@@ -8,6 +8,8 @@ import {SimpleListWithHandleComponent} from './simple-list-with-handle/simple-li
 import { FreeDragComponent } from './free-drag/free-drag.component';
 import {PortalModule} from '@angular/cdk/portal';
 import {DragDropModule} from '@angular/cdk/drag-drop';
+import { PortalDemoComponent } from './portal-demo/portal-demo.component';
+import {PortalwindowComponent} from './portalwindow/portalwindow.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import {DragDropModule} from '@angular/cdk/drag-drop';
     SimpleListComponent,
     SimpleListWithHandleComponent,
     TwoListsComponent,
-    FreeDragComponent
+    FreeDragComponent,
+    PortalDemoComponent,
+    PortalwindowComponent
   ],
   imports: [
     BrowserModule,

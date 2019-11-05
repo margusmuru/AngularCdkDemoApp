@@ -1,0 +1,19 @@
+<h1>CDK Example</h1>
+
+<div cdkDropListGroup class="list">
+
+  <div cdkDropList (cdkDropListDropped)="drop($event)">
+    <div cdkDrag class="box" *ngFor="let item of items">
+      <div class="item">{{item}}</div>
+    </div>
+  </div>
+
+  <app-portalwindow>
+    <div cdkDropList (cdkDropListDropped)="drop($event)">
+      <div cdkDrag class="box" *ngFor="let item of noItems">
+        <div class="item">{{item}}</div>
+      </div>
+    </div>
+  </app-portalwindow>
+
+</div>
