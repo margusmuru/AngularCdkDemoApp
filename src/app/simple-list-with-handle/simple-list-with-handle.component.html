@@ -25,6 +25,7 @@
 <div class="boundary" style="max-width: 50%">
   <div cdkDropList (cdkDropListDropped)="drop($event)" class="boundary-list">
     <div cdkDrag
+         cdkDragBoundary=".boundary"
          cdkDragLockAxis="y"
          class="small-item"
          *ngFor="let element of items">

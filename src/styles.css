@@ -1,8 +1,10 @@
 .list {
-   padding: 5px;
-   max-width: 50%;
-   border: solid black 1px;
- }
+  padding: 5px;
+  max-width: 50%;
+  min-width: 100px;
+  min-height: 100px;
+  border: solid black 1px;
+}
 
 .boundary-list {
   padding: 5px;
